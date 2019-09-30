@@ -9,11 +9,3 @@ Scope
 
 This software as a service project is to design and build an automatic meal planner that will primarily specialize in obscure diets like Ketogenic etc.  There are vast and major health risks when one embarks on this diet, our service is designed to help the end-user mitigate those risks.  The system will be easy to use input/output.  The user inputs their requirements and specifications based on the calculations we provide them with originally, the application will then spit out their diet plan with all of the necessary requirements being met.  
 Our service won’t go past offering the meal plan as the system is not in a place to offer medical advice regarding the diet, the system has many primary goals one of which is to ensure the end-user is within medically recommended nutritional ranges.  
-4.	Walkthrough Scenarios 
-User:
-
-Users should be able to input their age, weight, and height.  Upon entering those details, the software should then display the user's BMR (Basal Metabolic Rate) and an ideal calorie deficit to maintain steady healthy weight loss or specific requirements to grow or maintain.  Upon completing both of these steps the user will then input their calorie requirements and desired meal frequency.  Once both of these steps are complete the software application will then generate the ketogenic meal plan with the users required information and matching their meal frequency requirements.  
-
-System: 
-
-The system should be able to receive the user’s personal information (age, weight, and height).  Once the user has inputted these details upon first registration the system will also store the details.  Upon the user inputting their desired calorie intake and meal frequency after completing the two previous steps, the system will then output the generated meal plan.  
