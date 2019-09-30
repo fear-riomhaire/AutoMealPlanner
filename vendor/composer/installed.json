@@ -1,0 +1,107 @@
+[
+    {
+        "name": "mattsmithdev/pdo-crud-for-free-repositories",
+        "version": "v0.9.1",
+        "version_normalized": "0.9.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dr-matt-smith/pdo-crud-for-free-repositories.git",
+            "reference": "d9c8d9bb70d90ea9878c1155bd1be7a7448e8ee5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dr-matt-smith/pdo-crud-for-free-repositories/zipball/d9c8d9bb70d90ea9878c1155bd1be7a7448e8ee5",
+            "reference": "d9c8d9bb70d90ea9878c1155bd1be7a7448e8ee5",
+            "shasum": ""
+        },
+        "require": {
+            "php": "~5.5|~7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*",
+            "scrutinizer/ocular": "~1.1",
+            "squizlabs/php_codesniffer": "~2.3"
+        },
+        "time": "2019-03-22T20:52:53+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mattsmithdev\\PdoCrudRepo\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matt Smith",
+                "email": "dr_matt_smith@me.com",
+                "homepage": "http://mattsmithdev.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "make it really simply to do db crud with pdo",
+        "homepage": "https://github.com/dr-matt-smith/pdo-crud-for-free-repositories",
+        "keywords": [
+            "mattsmithdev",
+            "pdo-crud-for-free-repositories"
+        ]
+    },
+    {
+        "name": "pdfcrowd/pdfcrowd",
+        "version": "4.7.0",
+        "version_normalized": "4.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pdfcrowd/pdfcrowd-php.git",
+            "reference": "0e06c61c6f76c9b6cfa7f743f480f27f4106fd56"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pdfcrowd/pdfcrowd-php/zipball/0e06c61c6f76c9b6cfa7f743f480f27f4106fd56",
+            "reference": "0e06c61c6f76c9b6cfa7f743f480f27f4106fd56",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.10"
+        },
+        "time": "2019-03-21T08:08:33+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "pdfcrowd.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Pdfcrowd Team",
+                "email": "support@pdfcrowd.com",
+                "homepage": "https://pdfcrowd.com/doc/api/"
+            }
+        ],
+        "description": "A client library for the Pdfcrowd API. It lets you convert between HTML, PDF and various image formats",
+        "homepage": "https://pdfcrowd.com/doc/api/",
+        "keywords": [
+            "api",
+            "client",
+            "convert",
+            "html",
+            "pdf",
+            "web page",
+            "web service"
+        ]
+    }
+]

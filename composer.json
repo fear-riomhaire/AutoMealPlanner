@@ -1,0 +1,10 @@
+{
+    "autoload":{
+        "psr-4":{
+            "Tudublin\\":"src"
+        }
+    },
+    "require": {
+        "mattsmithdev/pdo-crud-for-free-repositories": "^0.9.1"
+    }
+}
